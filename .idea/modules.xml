@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calc/Calc.iml" filepath="$PROJECT_DIR$/Calc/Calc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/DIP/DIP.iml" filepath="$PROJECT_DIR$/SOLID/DIP/DIP.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/ISP/ISP.iml" filepath="$PROJECT_DIR$/SOLID/ISP/ISP.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/LSPrinciple/LSPrinciple.iml" filepath="$PROJECT_DIR$/SOLID/LSPrinciple/LSPrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/OpenClosePrinciple/OpenClosePrinciple.iml" filepath="$PROJECT_DIR$/SOLID/OpenClosePrinciple/OpenClosePrinciple.iml" />
