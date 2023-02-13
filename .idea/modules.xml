@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/SOLID/LSPrinciple/LSPrinciple.iml" filepath="$PROJECT_DIR$/SOLID/LSPrinciple/LSPrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/OpenClosePrinciple/OpenClosePrinciple.iml" filepath="$PROJECT_DIR$/SOLID/OpenClosePrinciple/OpenClosePrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/SRP/SRP.iml" filepath="$PROJECT_DIR$/SOLID/SRP/SRP.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyDesignAndSpringBoot.iml" filepath="$PROJECT_DIR$/StudyDesignAndSpringBoot.iml" />
     </modules>
   </component>
