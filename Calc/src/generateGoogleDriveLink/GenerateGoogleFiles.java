@@ -2,7 +2,7 @@ package generateGoogleDriveLink;
 
 public class GenerateGoogleFiles {
 
-    private String resultPrefix = "{\"image\" : \"https://drive.google.com/uc?export=view&id=";
+    private String resultPrefix = "{\"video\" : \"https://drive.google.com/uc?export=view&id=";
     private String getResult;
     private String resultSurfix = "\"}";
 

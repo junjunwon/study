@@ -9,4 +9,13 @@ public class Main {
 
         System.out.println("result is " + result);
     }
+
+    Collection<Object> foodMakers = applicaitionContext.getBeans~~(.class).values
+    해시맵에 담아서 매번 꺼내쓰는 방식.
+
+    for(FoodMaker foodMaker : foodMakers ) {
+        if(foodMakermap.put(foodMaker.getMenu(), foodMaker) != null) {
+            throw new IllegalAccessException()
+        }
+    }
 }

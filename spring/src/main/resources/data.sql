@@ -1,0 +1,2 @@
+INSERT INTO product(code, menu, category, quantity, price) VALUES ('PRODUCT-TEST-01', 'PIZZA', 'AMERICA', 10, 25000);
+INSERT INTO product(code, menu, category, quantity, price) VALUES ('PRODUCT-TEST-02', 'CHICKEN', 'AMERICA', 20, 20000);
