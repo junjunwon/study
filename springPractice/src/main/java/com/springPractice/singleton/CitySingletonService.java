@@ -1,13 +1,14 @@
 package com.springPractice.singleton;
 
+import com.springPractice.common.object.scope.City;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CityService {
+public class CitySingletonService {
 
-    private final ApplicationConfig applicationContext;
+    private final SingletonAppConfig applicationContext;
 
-    public CityService(ApplicationConfig applicationContext) {
+    public CitySingletonService(SingletonAppConfig applicationContext) {
         this.applicationContext = applicationContext;
     }
 

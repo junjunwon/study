@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CityServiceTest {
+class CityWebSingletonServiceTest {
 
     @Autowired
-    CityService cityService;
+    CitySingletonService citySingletonService;
 
     @Test
-    void singletone() {
-        Assertions.assertEquals(true, cityService.isSingletonObject());
+    void singleton() {
+        Assertions.assertEquals(true, citySingletonService.isSingletonObject());
     }
 
 }

@@ -1,4 +1,4 @@
-package com.springPractice.singleton;
+package com.springPractice.common.object.scope;
 
 
 import lombok.Getter;
