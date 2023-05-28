@@ -16,15 +16,15 @@ public class ProductOption {
 
         createdAt = generateRandomDateTime(createdAt);
         updatedAt = createdAt.plusMonths(getNumberFromOneToTen());
-        name = "1박스(기본) - ";
+        name = "1박스(기본)";
         productId = index;
 
         //한박스
         inventory = getInventory();
-        price = getPrice();
+        price = 0;
         sb.append("INSERT INTO product_option(name, inventory, price, created_at, updated_at, product_id) VALUES ('")
-                .append(name)
-                .append(price +"원'")
+                .append(name + "'")
+//                .append(price +"원'")
                 .append(",")
                 .append(inventory)
                 .append(",")
@@ -52,9 +52,9 @@ public class ProductOption {
         inventory = getInventory();
         price = (long) (getPrice() * (discountPercent * 0.01));
         sb.append("INSERT INTO product_option(name, inventory, price, created_at, updated_at, product_id) VALUES ('")
-                .append(name)
-                .append("("+discountPercent+"%할인) - ")
-                .append(price +"원'")
+                .append(name +"'")
+//                .append("("+discountPercent+"%할인) - ")
+//                .append(price +"원'")
                 .append(",")
                 .append(inventory)
                 .append(",")
